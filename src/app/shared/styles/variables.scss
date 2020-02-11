@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,800");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,600,800");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,600,800");
+
+//general
+$site-font: "Dancing Script", sans-serif;
+$padding: 4px;
+$padding-td: 2px;
+$margin: 4px;
+$grid-gap: 4px;
+$border-round: 8px;
+$btn-font-size: 15px;
+$btn-border-radius: 50px;
+$btn-width: 156px;
+$btn-letter-spacing: 0.14em;
+$btn-padding: 6px;
+$box-shadow: 0 0 5px 0;
+
+//form
+$form-min-width: 300px;
+$form-min-height: 250px;
+
+//button
+$button-grey: linear-gradient(to bottom, #fcfcfc, #cecece);
+$button-green: linear-gradient(to bottom, #28d346, #43a354);
+
+//error
+$error-red-light: #f0b7b7;
+$error-red-dark: #e02d17;
+
+// Typography
+
+// h1
+$h1-font-size-small: 33px;
+$h1-font-size-large: 36px;
+$h1-font-family: "Poppins", sans-serif;
+$h1-font-weight: 600;
+$h1-font-weight-norm: 400;
+$h1-font-weight-bold: 700;
+
+// h2
+$h2-font-size: 25px;
+$h2-font-family: "Poppins", sans-serif;
+$h2-font-weight: 500;
+$h2-font-weight-norm: 400;
+$h2-font-weight-semi-bold: 600;
+$h2-font-weight-bold: 700;
+
+// h3
+$h3-font-size-small: 20px;
+$h3-font-size-large: 23px;
+$h3-font-family: "Poppins", sans-serif;
+$h3-font-weight: 600;
+$h3-font-weight-norm: 400;
+$h3-font-weight-bold: 700;
+
+//h4
+$h4-font-size-small: 18px;
+$h4-font-size-large: 20px;
+$h4-font-family: "Poppins", sans-serif;
+$h4-font-weight: 500;
+$h4-font-weight-norm: 400;
+$h4-font-weight-semi-bold: 600;
+$h4-font-weight-bold: 700;
+
+//h5
+$h5-font-size-small: 12px;
+$h5-font-size-large: 18px;
+$h5-font-family: "Poppins", sans-serif;
+$h5-font-weight: 700;
+$h5-font-weight-semi-bold: 600;
+$h5-font-weight-norm: 400;
+
+//button | large-link
+$button-font-size-small: 15px;
+$button-font-size-large: 21px;
+$button-font-family: "Poppins", sans-serif;
+$button-font-weight: 600;
+$button-font-weight-norm: 400;
+$button-font-weight-bold: 700;
+
+//label
+$label-font-size-small: 12px;
+$label-font-size-large: 17px;
+$label-font-family: "Noto Sans", sans-serif;
+$label-font-weight: 700;
+$label-font-weight-semi-bold: 600;
+$label-font-weight-norm: 400;
+
+//paragraph | field text
+$p-font-size-smaller: 10px;
+$p-font-size-small: 12px;
+$p-font-size-large: 17px;
+$p-font-family: "Noto Sans", sans-serif;
+$p-font-weight: 400;
+$p-font-weight-semi-bold: 600;
+$p-font-weight-bold: 700;
+
+//small link
+$small-link-font-size-small: 11px;
+$small-link-font-size-large: 17px;
+$small-link-font-family: "Poppins", sans-serif;
+$small-link-font-weight: 600;
+$small-link-font-weight-bold: 700;
+$small-link-font-weight-norm: 400;
+
+//footer link | footer label
+$footer-link-font-size-small: 10px;
+$footer-link-font-size-large: 16px;
+$footer-link-font-family: "Poppins", sans-serif;
+$footer-link-font-weight: 600;
+$footer-link-font-weight-bold: 700;
+$footer-link-font-weight-norm: 400;
+
+//tip Text
+$tip-text-font-size-small: 10px;
+$tip-text-font-size-large: 14px;
+$tip-text-font-family: "Noto Sans", sans-serif;
+$tip-text-font-weight: 700;
+$tip-text-font-weight-semi-bold: 600;
+$tip-text-font-weight-norm: 400;
+
+//tool tip
+$tool-tip-font-size-small: 8px;
+$tool-tip-font-size-large: 11px;
+$tool-tip-font-family: "Noto Sans", sans-serif;
+$tool-tip-font-weight: 700;
+$tool-tip-font-weight-semi-bold: 600;
+$tool-tip-font-weight-norm: 400;
+
+// color usage
+
+// brand colors
+$color-brand-primary: #9ac65d;
+$color-brand-secondary: #459f55;
+
+// text colors
+$color-text-normal: #494949;
+
+// UI color
+$color-close-delete: #ff5b51;
+$color-edit-color: #e7bf2a;
+$color-rest-icon-color: #7b7984;
+$color-left-pane-color: #8e8c96;
+$color-text-default-color: #8e8c96;
+
+// action colors
+$color-error-color: #fc6500;
+$color-edit-color: #e7bf2a;
+$color-hover-light-color: #7b7984;
+// $color-hover-green-color: #b3d586;
+$color-hover-green-color: #9ac65d;
+
+//neutral colors
+$color-light-grey: #ebebeb;
+$color-dark-grey: #b3b1bc;
+$color-darker-grey: #8e8c96;
+$color-background-grey: #f4f4f4;
+$color-background-white: #ffffff;
+$color-container-grey: #dcdbeb;
+$color-lightgrey: #f9f9f9;
+
+//Gradients
+$color-gradient-primary: linear-gradient(45deg, rgba(69, 159, 85, 1) 0%, rgba(154, 198, 93, 1) 100%);
+$color-gradient-secondary: linear-gradient(45deg, rgba(142, 140, 150, 1) 0%, rgba(240, 240, 240, 1) 100%);

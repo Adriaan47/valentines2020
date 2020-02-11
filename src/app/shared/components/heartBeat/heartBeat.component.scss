@@ -1,0 +1,122 @@
+@import "../../../shared/styles/variables.scss";
+.header {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 99%;
+  text-align: center;
+  font-family: $site-font;
+  font-weight: $p-font-weight-bold;
+  font-size: 30px;
+  color: #ff0036;
+}
+button {
+  position: absolute;
+  top: 63%;
+  left: 28%;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  font-weight: $button-font-weight;
+  font-family: $button-font-family;
+  cursor: pointer;
+  border-radius: $btn-border-radius;
+  outline: none;
+  width: auto;
+  min-width: $btn-width;
+  letter-spacing: $btn-letter-spacing;
+  padding: $btn-padding;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ff0036;
+  color: $color-background-white;
+}
+
+button:hover {
+  background-color: #ffffff;
+  border: 2px solid #ff0036;
+  color: #ff0036;
+}
+.center {
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  background: #1f1f1f;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  border: 5px solid white;
+  border-radius: 100%;
+  box-shadow: 20px 20px 45px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.imgHeader {
+  width: 25%;
+}
+
+.mySlides {
+  width: 100%;
+}
+.heart {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: #ff0036;
+  transform: rotate(45deg) translate(10px, 10px);
+  animation: ani 1s linear infinite;
+}
+.heart:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #ff0036;
+  position: absolute;
+  top: -50%;
+  left: 0;
+  border-radius: 50%;
+}
+.heart:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #ff0036;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  border-radius: 50%;
+}
+.center:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* .mySlides {
+  display: none;
+} */
+
+@keyframes ani {
+  0% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1);
+  }
+  25% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1);
+  }
+  30% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1.4);
+  }
+  50% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1.2);
+  }
+  70% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1.4);
+  }
+  90% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1);
+  }
+  100% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1);
+  }
+}
