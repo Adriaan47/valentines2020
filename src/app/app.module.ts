@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HeartBeatComponent } from './shared/components/heartBeat/heartBeat.component';
 
 
+
 @NgModule({
    declarations: [
       AppComponent,
-      HeartBeatComponent
+      HeartBeatComponent,
    ],
    imports: [
       BrowserModule,

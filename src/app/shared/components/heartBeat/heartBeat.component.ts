@@ -12,6 +12,7 @@ export class HeartBeatComponent implements OnInit {
   public img1: string = "../../../../assets/burningRose4K.jpg"
   public img2: string = "../../../../assets/roseFireSmoke4K.jpg"
   public img3: string = "../../../../assets/roseOled4K.jpg"
+  public img4: string = "../../../../assets/Angel.jpeg"
   public header: string = "../../../../assets/Header.jpg"
 
   @ViewChild('nat') el: ElementRef;
